@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProjectDesignPattren.States;
+
 namespace ProjectDesignPattren
 {
     public class Branch
@@ -11,9 +13,10 @@ namespace ProjectDesignPattren
         public string name;
         public List<Branch> branches;
         private State state;
+        IState istate;
         public void ChangeState()
         {
-            state.ChangeState();
+            state.ChangeState(istate);
         }
         public Branch creat(string name)
         {
@@ -28,13 +31,14 @@ namespace ProjectDesignPattren
             this.name = name;
             this.branches = new List<Branch>();
             this.state = new State();
+            istate = new RoughCopy();
         }
         public void delete()
         {
             this.listFolders = null;
             this.name = null;
             this.branches = null;
-            this.state = State.changeState("delete");
+            this.state = null;
             foreach (Branch branch in branches)
             {
                 branch.delete();
