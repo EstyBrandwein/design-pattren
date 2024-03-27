@@ -12,7 +12,7 @@ namespace ProjectDesignPattren
         public List<folders> listFolders;
         public string name;
         public List<Branch> branches;
-        private State state;
+        private Context state;
         IState istate;
         public void ChangeState()
         {
@@ -30,7 +30,7 @@ namespace ProjectDesignPattren
             this.listFolders = new List<folders>();
             this.name = name;
             this.branches = new List<Branch>();
-            this.state = new State();
+            this.state = new Context();
             istate = new RoughCopy();
         }
         public void delete()

@@ -9,7 +9,10 @@ namespace ProjectDesignPattren
     public sealed class MainBranch : Branch
     {
         private static Branch mainBranch;
-        private MainBranch(){}
+        private MainBranch()
+        {
+          
+        }
         public static Branch GetInstance()
         {
             if (mainBranch == null)

@@ -2,9 +2,14 @@
 {
     public class RoughCopy : IState
     {
-        public void setstate(State state)
+        public void changeState(Context state)
         {
-            throw new NotImplementedException();
+            state.ChangeState(new Committed());
+        }
+
+        public void Print()
+        {
+            Console.WriteLine("now you are in the Rough Copy state");
         }
     }
 }

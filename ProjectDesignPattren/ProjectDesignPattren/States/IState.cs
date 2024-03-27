@@ -8,6 +8,7 @@ namespace ProjectDesignPattren.States
 {
     public interface IState
     {
-        void setstate(State state);
+        void changeState(Context state);
+        public void Print();
     }
 }

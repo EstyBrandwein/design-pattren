@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProjectDesignPattren.States
 {
-    public class State
+    public class Context
     {
         private IState mystate;
 
-        public State()
+        public Context()
         {
             mystate = new RoughCopy();
         }
@@ -18,15 +18,12 @@ namespace ProjectDesignPattren.States
         {
             Console.WriteLine("changed state");
             mystate = state;
-            mystate.setstate(this);
+            //mystate.setstate(this);
 
         }
-
-        public static void changeState(string v)
+        public IState GetState()
         {
-            
+            return mystate;
         }
-
-
     }
 }

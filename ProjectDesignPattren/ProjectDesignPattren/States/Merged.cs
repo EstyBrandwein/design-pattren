@@ -8,9 +8,14 @@ namespace ProjectDesignPattren.States
 {
     public class Merged : IState
     {
-        public void setstate(State state)
+        public void changeState(Context state)
         {
-            throw new NotImplementedException();
+            state.ChangeState(new Committed());
+        }
+
+        public void Print()
+        {
+            Console.WriteLine("now you are in the Merged state");
         }
     }
 }

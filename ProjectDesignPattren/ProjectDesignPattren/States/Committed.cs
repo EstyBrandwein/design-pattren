@@ -8,9 +8,14 @@ namespace ProjectDesignPattren.States
 {
     public class Committed : IState
     {
-        public void setstate(State state)
+        public void changeState(Context state)
         {
-            throw new NotImplementedException();
+            state.ChangeState(new UnderReview());
+        }
+
+        public void Print()
+        {
+            Console.WriteLine("now you are in the Committedstate");
         }
     }
 }
