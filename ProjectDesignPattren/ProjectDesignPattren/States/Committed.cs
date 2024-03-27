@@ -10,6 +10,11 @@ namespace ProjectDesignPattren.States
     {
         public void changeState(Context state)
         {
+            const string FILENAME = @"..\file1.txt";
+            StreamWriter streamWriter = new(FILENAME, true);
+            streamWriter.WriteLine("now thre is a file in review");
+            streamWriter.Close();
+
             state.ChangeState(new UnderReview());
         }
 

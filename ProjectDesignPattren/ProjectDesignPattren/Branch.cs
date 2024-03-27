@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProjectDesignPattren.Files;
 using ProjectDesignPattren.States;
 
 namespace ProjectDesignPattren
 {
-    public class Branch
+    public  class Branch
     {
-        public List<folders> listFolders;
+        public List<MyDirectory> listFolders;
         public string name;
         public List<Branch> branches;
         private Context state;
@@ -27,7 +28,7 @@ namespace ProjectDesignPattren
         }
         public Branch(string name)
         {
-            this.listFolders = new List<folders>();
+            this.listFolders = new List<MyDirectory>();
             this.name = name;
             this.branches = new List<Branch>();
             this.state = new Context();
