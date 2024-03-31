@@ -9,16 +9,9 @@ namespace ProjectDesignPattren.Files_Directory
 {
     class MyFile : MyDirectory
     {
-        public override string Type()
+        public override string TypeOfDirectory()
         {
             return "file";
         }
-
-
-        //public override bool IsComposite()
-        //{
-        //    return false;
-        //}
     }
-
 }

@@ -9,7 +9,7 @@ namespace ProjectDesignPattren.Files
     public abstract class MyDirectory
     {
         //abstract public int size();
-        abstract public string Type();
+        abstract public string TypeOfDirectory();
         public MyDirectory() {
 
         }

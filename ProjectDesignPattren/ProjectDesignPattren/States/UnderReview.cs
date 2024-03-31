@@ -10,7 +10,7 @@ namespace ProjectDesignPattren.States
     {
         public void changeState(Context state)
         {
-            state.ChangeState(new ReadyToMerge());
+            state.SetState(new ReadyToMerge());
         }
 
         public void Print()

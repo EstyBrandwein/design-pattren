@@ -12,3 +12,18 @@ H:\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\refint\
 H:\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.pdb
 H:\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.genruntimeconfig.cache
 H:\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ref\ProjectDesignPattren.dll
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.csproj.AssemblyReference.cache
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.GeneratedMSBuildEditorConfig.editorconfig
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.AssemblyInfoInputs.cache
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.AssemblyInfo.cs
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.csproj.CoreCompileInputs.cache
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.dll
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\refint\ProjectDesignPattren.dll
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.pdb
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\bin\Debug\net7.0\ProjectDesignPattren.exe
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\bin\Debug\net7.0\ProjectDesignPattren.deps.json
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\bin\Debug\net7.0\ProjectDesignPattren.runtimeconfig.json
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\bin\Debug\net7.0\ProjectDesignPattren.dll
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\bin\Debug\net7.0\ProjectDesignPattren.pdb
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ProjectDesignPattren.genruntimeconfig.cache
+H:\design pattern\project\Dp project\ProjectDesignPattren\ProjectDesignPattren\obj\Debug\net7.0\ref\ProjectDesignPattren.dll

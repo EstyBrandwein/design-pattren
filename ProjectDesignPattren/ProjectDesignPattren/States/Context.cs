@@ -9,21 +9,23 @@ namespace ProjectDesignPattren.States
     public class Context
     {
         private IState mystate;
-
-        public Context()
+        public Context(IState state)
         {
-            mystate = new RoughCopy();
+            this.mystate = state;
         }
-        public void ChangeState(IState state)
+        public void SetState(IState state)
         {
             Console.WriteLine("changed state");
             mystate = state;
-            //mystate.setstate(this);
-
         }
         public IState GetState()
         {
             return mystate;
+        }
+        public void changeState()
+        {
+            this.mystate.changeState(this);
+            this.mystate.Print();
         }
     }
 }

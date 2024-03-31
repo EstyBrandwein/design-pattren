@@ -8,10 +8,10 @@ namespace ProjectDesignPattren
 {
     public sealed class MainBranch : Branch
     {
+
         private static Branch mainBranch;
-        private MainBranch()
+        private MainBranch() : base("main")
         {
-          
         }
         public static Branch GetInstance()
         {

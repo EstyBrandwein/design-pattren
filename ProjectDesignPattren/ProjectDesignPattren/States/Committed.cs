@@ -14,8 +14,7 @@ namespace ProjectDesignPattren.States
             StreamWriter streamWriter = new(FILENAME, true);
             streamWriter.WriteLine("now thre is a file in review");
             streamWriter.Close();
-
-            state.ChangeState(new UnderReview());
+            state.SetState(new UnderReview());
         }
 
         public void Print()

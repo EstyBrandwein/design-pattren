@@ -17,7 +17,7 @@ namespace ProjectDesignPattren.Files
         {
             _children.Add(c);
         }
-        public override string Type()
+        public override string TypeOfDirectory()
         {
             return "Folder";
         }
